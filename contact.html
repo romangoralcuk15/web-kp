@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Зелена енергетика</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header class="main-header contact-header cover-bg d-flex">
+    <nav class="header-nav">
+      <div class="content-wrap d-flex justify-between vertical-center h-full">
+        <div class="d-flex">
+          <div class="main-logo">
+            <a href="index.html">
+              <img src="images/logo.svg" alt="logo">
+            </a>
+          </div>
+          <ul class="main-menu d-flex vertical-center">
+            <li>
+              <a href="about.html">
+                Про нас
+              </a>
+            </li>
+            <li>
+              <a href="team.html">
+                Команда
+              </a>
+            </li>
+            <li>
+              <a href="404.html">
+                Рішення
+              </a>
+            </li>
+            <li>
+              <a href="contact.html">
+                Контакти
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button class="header-btn modal-btn">
+            Зв'язатися
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="header-content">
+      <h1 class="header-content-title">
+        Наші контакти
+      </h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="section contact-form-section">
+      <div class="content-wrap d-flex justify-between">
+        <div class="contact-info">
+          <h2 class="section-title">Контактна інформація</h2>
+          <p><strong>Телефон:</strong> <a href="tel:+380991234455">+380 99 123 44 55</a></p>
+          <p><strong>Email:</strong> <a href="mailto:info@greenenergy.com">info@greenenergy.com</a></p>
+          <p><strong>Адреса:</strong> вул. Незалежності, 12, Київ, Україна</p>
+          <p><strong>Графік роботи:</strong></p>
+          <ul>
+            <li>Пн-Пт: 9:00 - 18:00</li>
+            <li>Сб-Нд: Вихідний</li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <h2 class="section-title">Напишіть нам</h2>
+          <form id="contactForm">
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Пошта</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Повідомлення</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="header-btn header-btn-green">Відправити</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section map-section">
+      <div class="content-wrap">
+        <h2 class="section-title">Де нас знайти</h2>
+        <div class="map-container">
+          <!-- Google Maps iframe -->
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25392.759907529336!2d30.445132!3d50.4501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf8c57e0e5c7%3A0x1c93f6786e6aeed0!2z0JrQvtC80L7QstC-0YHRgtCy0LAsINCa0L7Qu9GW0LrQvtC1LCDQkdC10L7QsA!5e0!3m2!1suk!2sua!4v1698954409134!5m2!1suk!2sua" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer class="cover-bg relative">
+    <div class="content-wrap d-flex justify-between">
+      <div class="main-logo">
+        <a href="index.html">
+          <img src="images/logo.svg" alt="logo">
+        </a>
+      </div>
+      <nav class="footer-menu d-flex">
+        <div class="footer-menu-item">
+          <div class="footer-menu-item-title">
+            Платформа
+          </div>
+          <a href="#">Рішення</a>
+          <a href="#">Як це працює</a>
+          <a href="#">Ціни</a>
+        </div>
+        <div class="footer-menu-item">
+          <div class="footer-menu-item-title">
+            Компанія
+          </div>
+          <a href="#">Про нас</a>
+          <a href="#">Наша місія</a>
+          <a href="#">Кар'єра</a>
+          <a href="#">Контакти</a>
+        </div>
+        <div class="footer-menu-item">
+          <div class="footer-menu-item-title">
+            Ресурси
+          </div>
+          <a href="#">Блог</a>
+          <a href="#">Довідковий центр</a>
+          <a href="#">Підтримка</a>
+        </div>
+      </nav>
+      <div class="social">
+        <a href="#" class="social-item social-item-f cover-bg">
+        </a>
+        <a href="#" class="social-item social-item-i cover-bg"></a>
+        <a href="#" class="social-item social-item-l cover-bg"></a>
+      </div>
+    </div>
+    <div class="content-wrap absolute">
+      <div class="copyright ">
+        © 2026 Flow. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollToTop" class="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Зв'язатися</h2>
+      <form id="contactForm">
+        <label for="name">Ім'я</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Пошта</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone" name="phone" required>
+  
+        <label for="message">Повідомлення</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+  
+        <button type="submit" class="header-btn">Відправити</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script/app.js"></script>
+</body>
+</html>
